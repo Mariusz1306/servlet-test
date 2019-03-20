@@ -6,6 +6,10 @@
     <servlet>
         <servlet-name>hello</servlet-name>
         <servlet-class>MyServlet</servlet-class>
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>Not provided</param-value>
+        </init-param>
     </servlet>
     <servlet-mapping>
         <servlet-name>hello</servlet-name>
